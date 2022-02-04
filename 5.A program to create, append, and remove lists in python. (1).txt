@@ -1,0 +1,15 @@
+PROGRAM:-
+Boys= ['yash','rahul','akash','sai','bhavesh']
+Girls=['vaishnavi','prerna','sakshi','sai','shweta']
+print("Boys are :",Boys)
+print("Girls are :",Girls)
+names=Boys+Girls
+print("names are :",names)
+Girls.remove("sai")
+print("updated Girls are :",Girls) 
+
+OUTPUT:-
+Boys are : ['yash', 'rahul', 'akash', 'sai', 'bhavesh']
+Girls are : ['vaishnavi', 'prerna', 'sakshi', 'sai', 'shweta']
+names are : ['yash', 'rahul', 'akash', 'sai', 'bhavesh', 'vaishnavi', 'prerna', 'sakshi', 'sai', 'shweta']
+updated Girls are : ['vaishnavi', 'prerna', 'sakshi', 'shweta']
