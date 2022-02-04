@@ -1,0 +1,16 @@
+INPUT
+a = 2  
+print("The type of a", type(a))  
+  
+b = 20.5  
+print("The type of b", type(b))  
+  
+c = 1+4j  
+print("The type of c", type(c))  
+print(" c is a complex number", isinstance(1+4j,complex)) 
+
+OUTPUT
+The type of a <class 'int'>
+The type of b <class 'float'>
+The type of c <class 'complex'>
+ c is a complex number True
